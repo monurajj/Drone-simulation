@@ -1,0 +1,262 @@
+[0.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/monu/drone_ws']
+[0.139s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/monu/drone_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc690162680>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fc690161840>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fc690161840>>)
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.441s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/monu/drone_ws'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/build) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/build) ignored
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/install) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/install) ignored
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/log) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/log) ignored
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/drone_bringup) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/launch) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_bringup/resource) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_control) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package '/home/monu/drone_ws/src/drone_control' with type 'ros.ament_python' and name 'drone_control'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/config) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/launch) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/meshes) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/urdf) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_description/worlds) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'cmake'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'python'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/config) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/launch) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/drone_gazebo/worlds) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/monu/drone_ws/src/px4_msgs) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package '/home/monu/drone_ws/src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

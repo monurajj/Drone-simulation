@@ -1,0 +1,19 @@
+[0.889s] Invoking command in '/home/monu/drone_ws/build/drone_control': PYTHONPATH=/home/monu/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monu/drone_ws/build/drone_control/build --no-deps
+[1.195s] running develop
+[1.362s] running egg_info
+[1.362s] writing drone_control.egg-info/PKG-INFO
+[1.362s] writing dependency_links to drone_control.egg-info/dependency_links.txt
+[1.363s] writing entry points to drone_control.egg-info/entry_points.txt
+[1.363s] writing requirements to drone_control.egg-info/requires.txt
+[1.363s] writing top-level names to drone_control.egg-info/top_level.txt
+[1.366s] reading manifest file 'drone_control.egg-info/SOURCES.txt'
+[1.366s] writing manifest file 'drone_control.egg-info/SOURCES.txt'
+[1.367s] running build_ext
+[1.368s] Creating /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone-control.egg-link (link to .)
+[1.369s] Installing avoidance_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.369s] Installing keyboard_control script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.369s] Installing lidar_processor script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.369s] Installing takeoff_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.369s] 
+[1.369s] Installed /home/monu/drone_ws/build/drone_control
+[1.436s] Invoked command in '/home/monu/drone_ws/build/drone_control' returned '0': PYTHONPATH=/home/monu/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monu/drone_ws/build/drone_control/build --no-deps

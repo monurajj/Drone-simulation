@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/monu/drone_ws/build/drone_control",
+        "/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages",
+        "/home/monu/drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/monu/drone_ws/build/drone_control",
+        "/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages",
+        "/home/monu/drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,6 @@
+[console_scripts]
+avoidance_node = drone_control.avoidance_node:main
+keyboard_control = drone_control.keyboard_control:main
+lidar_processor = drone_control.lidar_processor:main
+takeoff_node = drone_control.takeoff_node:main
+

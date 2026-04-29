@@ -1,0 +1,37 @@
+running develop
+Removing /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone-control.egg-link (link to .)
+running egg_info
+writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/monu/drone_ws/build/drone_control/build
+creating /home/monu/drone_ws/build/drone_control/build/lib
+creating /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+copying drone_control/takeoff_node.py -> /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+copying drone_control/__init__.py -> /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+copying drone_control/avoidance_node.py -> /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+copying drone_control/lidar_processor.py -> /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+running install
+running install_lib
+creating /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+copying /home/monu/drone_ws/build/drone_control/build/lib/drone_control/takeoff_node.py -> /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+copying /home/monu/drone_ws/build/drone_control/build/lib/drone_control/__init__.py -> /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+copying /home/monu/drone_ws/build/drone_control/build/lib/drone_control/avoidance_node.py -> /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+copying /home/monu/drone_ws/build/drone_control/build/lib/drone_control/lidar_processor.py -> /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+byte-compiling /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/takeoff_node.py to takeoff_node.cpython-310.pyc
+byte-compiling /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/avoidance_node.py to avoidance_node.cpython-310.pyc
+byte-compiling /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/lidar_processor.py to lidar_processor.cpython-310.pyc
+running install_egg_info
+Copying ../../build/drone_control/drone_control.egg-info to /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.1-py3.10.egg-info
+running install_scripts
+Installing avoidance_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+Installing lidar_processor script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+Installing takeoff_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+writing list of installed files to '/home/monu/drone_ws/build/drone_control/install.log'

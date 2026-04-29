@@ -1,0 +1,25 @@
+[0.804s] Invoking command in '/home/monu/drone_ws/src/drone_control': PYTHONPATH=/home/monu/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/monu/drone_ws/build/drone_control/build install --record /home/monu/drone_ws/build/drone_control/install.log --single-version-externally-managed
+[1.060s] running egg_info
+[1.060s] writing ../../build/drone_control/drone_control.egg-info/PKG-INFO
+[1.060s] writing dependency_links to ../../build/drone_control/drone_control.egg-info/dependency_links.txt
+[1.060s] writing entry points to ../../build/drone_control/drone_control.egg-info/entry_points.txt
+[1.061s] writing requirements to ../../build/drone_control/drone_control.egg-info/requires.txt
+[1.061s] writing top-level names to ../../build/drone_control/drone_control.egg-info/top_level.txt
+[1.062s] reading manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[1.065s] writing manifest file '../../build/drone_control/drone_control.egg-info/SOURCES.txt'
+[1.065s] running build
+[1.065s] running build_py
+[1.065s] copying drone_control/takeoff_node.py -> /home/monu/drone_ws/build/drone_control/build/lib/drone_control
+[1.066s] running install
+[1.066s] running install_lib
+[1.067s] copying /home/monu/drone_ws/build/drone_control/build/lib/drone_control/takeoff_node.py -> /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control
+[1.067s] byte-compiling /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control/takeoff_node.py to takeoff_node.cpython-310.pyc
+[1.068s] running install_egg_info
+[1.070s] removing '/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.1-py3.10.egg-info' (and everything under it)
+[1.071s] Copying ../../build/drone_control/drone_control.egg-info to /home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages/drone_control-0.0.1-py3.10.egg-info
+[1.072s] running install_scripts
+[1.095s] Installing avoidance_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.095s] Installing lidar_processor script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.095s] Installing takeoff_node script to /home/monu/drone_ws/install/drone_control/lib/drone_control
+[1.096s] writing list of installed files to '/home/monu/drone_ws/build/drone_control/install.log'
+[1.140s] Invoked command in '/home/monu/drone_ws/src/drone_control' returned '0': PYTHONPATH=/home/monu/drone_ws/build/drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monu/drone_ws/install/drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control build --build-base /home/monu/drone_ws/build/drone_control/build install --record /home/monu/drone_ws/build/drone_control/install.log --single-version-externally-managed
